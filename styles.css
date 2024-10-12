@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: radial-gradient(white,rgb(214, 214, 246), white);
+    overflow: hidden;
+}
+
+.innerDiv {
+    width: 50%;
+    background: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 60%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    height: 60%;
+}
+
+#myH1, #myH2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#myH1 {
+    color: rgb(170, 9, 9);
+    font-family: lexend;
+    margin-top: 55px;
+    font-size: 2.7rem;
+}
+
+#myH2 {
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+.userInput input{
+    width: 50%;
+    height: 50px;
+    border-radius: 8px;
+    border-collapse: collapse;
+    display: block;
+    margin: 0 auto;
+    padding-left: 10px;
+    font-family: poppins;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.userInput #button1 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 25%;
+    height: 45px;
+    font-family: lexend;
+    font-size: 16px;
+    background-color:rgb(15, 96, 247);
+    border-radius: 6px;
+    border-width: 1px;
+    color: white;
+}
+
+.userInput #result {
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-weight: 600;
+    color: darkred;
+    font-size: 20px;
+}
